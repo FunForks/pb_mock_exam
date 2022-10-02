@@ -32,13 +32,21 @@ describe('isMultipleOfNine', () => {
     });
 });
 
-describe('missingAngle', () => {
+describe('polygonType', () => {
     test.each`
     input | expected 
     ${[3,4,5]} | ${"triangle"}
+    ${[2,4,5]} | ${"triangle"}
     ${[4, 4, 4]} | ${"equilateral triangle"}
+    ${[3,4,5,6]} | ${"quadrilateral"}
+    ${[9,9,9,9]} | ${"square"}
     ${[3,4,5,6,7]} | ${"pentagon"}
+    ${[7,7,7,7,7]} | ${"regular pentagon"}
+    ${[3,4,5,6,7,8]} | ${"hexagon"}
+    ${[3,3,3,3,3,3]} | ${"regular hexagon"}
     ${[1,1,1,1,1,1,1]} | ${"unexpected number of sides"}
+    ${[2,1]} | ${"unexpected number of sides"}
+    ${[1,2,3,4,5,6,7,8,9]} | ${"unexpected number of sides"}
     `('$input describes the shape: $expected', ({input, expected}) => {
         expect(polygonType(...input)).toBe(expected);
     });
