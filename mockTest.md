@@ -1,5 +1,5 @@
 # Double Vowels
-Create a function called `hasDoubleVowels`. This function will be called with a string argument: a word like "Facetious", "skiing", "strengths", or "VACCUUM". If the word has a double vowel ("aa", "ee", "ii", "oo" or "uu"), the function should return the input word exactly as it was sent in (case sensitive). If the word has no double vowels, it should return the exact string: "The input has no double vowels".
+Create a function called `hasDoubleVowels`. This function will be called with a string argument: a word like "Facetious", "skiing", "strengths", or "VACUUM". If the word has a double vowel ("aa", "ee", "ii", "oo" or "uu"), the function should return the input word exactly as it was sent in (case sensitive). If the word has no double vowels, it should return the exact string: "The input has no double vowels".
 
 **Examples**
 
