@@ -1,6 +1,36 @@
-// Add answers here 
+function hasDoubleVowels() {
+  
+}
 
 
+
+function isMultipleOfNine() {
+
+}
+
+
+
+function polygonType() {
+
+}
+
+
+
+function rockAndRoll() {
+
+}
+
+
+
+function powerOutput() {
+
+}
+
+
+
+function secretSanta() {
+  
+}
 
 
 
