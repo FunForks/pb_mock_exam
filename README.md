@@ -76,6 +76,8 @@ Create a function called "rockAndRoll". This function will receive a single emoj
 
 You might like to use the ternary ` ? : ` operator in your solution.
 
+Bonus challenge: Can you write your function in a single line?
+
 ---
 
 # Looping
