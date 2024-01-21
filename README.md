@@ -76,7 +76,7 @@ Create a function called "rockAndRoll". This function will receive a single emoj
 
 You might like to use the ternary ` ? : ` operator in your solution.
 
-Bonus challenge: Can you write your function in a single line?
+Bonus challenge: Can you write your function in a single line? What other answers can you reduce to a single line?
 
 ---
 
