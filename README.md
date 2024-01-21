@@ -1,3 +1,5 @@
+Please write your answers in the index.js file. If you want to convert the function declarations into function expressions, please do, but be sure to use exactly the same names. This means that an automated test can be run on the index.js script to check if your functions are returning the expected values for specific inputs.
+
 # Double Vowels
 Create a function called `hasDoubleVowels`. This function will be called with a string argument: a word like "Facetious", "skiing", "strengths", or "VACUUM". If the word has a double vowel ("aa", "ee", "ii", "oo" or "uu"), the function should return the input word exactly as it was sent in (case sensitive). If the word has no double vowels, it should return the exact string: "The input has no double vowels".
 
