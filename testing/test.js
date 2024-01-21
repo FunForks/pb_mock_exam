@@ -27,6 +27,7 @@ describe('isMultipleOfNine', () => {
     ${0x12} | ${true}
     ${6} | ${false}
     ${"66"} | ${false}
+    ${9.9} | ${false}
     `('check if $input is a multiple of 9: $expected', ({input, expected}) => {
         expect(isMultipleOfNine(input)).toBe(expected);
     });
