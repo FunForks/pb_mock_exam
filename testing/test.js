@@ -77,6 +77,7 @@ describe('secretSanta', () => {
     ${"E.T. phone home"} | ${2}
     ${"A whole holiday in Holland"} | ${3}
     ${"Homer is our household hotshot with horseshoes."} | ${7}
+    ${"Shoshone, Idaho"} | ${3}
     ${"Toledo, Ohio"} | ${0}
     `('$input contains $expected occurrences of "ho"', ({input, expected}) => {
         expect(secretSanta(input)).toBe(expected);
