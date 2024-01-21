@@ -29,7 +29,7 @@ Create a function called "isMultipleOfNine". The function will be called with an
 
 # Polygon
 
-Create a function named "polygonType". This function will be called with between 3 and 6 positive number arguments, such as `3,4,5`. These numbers represent the lengths of the sides of a polygon. The function should return one of the following values:
+Create a function named "polygonType". This function _should_ be called with between 3 and 6 positive number arguments, such as `3,4,5`. These numbers represent the lengths of the sides of a polygon. The arguments _will_ all be numbers, but there may be less than 3 or more than 6. The function should return one of the following values:
 
 1. "triangle"
 2. "equilateral triangle"
@@ -38,7 +38,8 @@ Create a function named "polygonType". This function will be called with between
 5. "pentagon"
 6. "regular pentagon"
 7. "hexagon"
-8. "regular hexagon"
+8. "regular hexagon"
+9. "unexpected number of sides"
 
 The output depends on:
 
@@ -53,6 +54,7 @@ The output depends on:
 | 4, 4, 4 | "equilateral triangle" |
 | 0.2, 0.2, 0.2, 0.2 | square |
 | 3, 3, 3, 3, 3, 3.001 | "hexagon" |
+| 1, 2, 3, 4, 5, 6, 7 | "unexpected number of sides" |
 
 ---
 
