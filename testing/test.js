@@ -74,8 +74,9 @@ describe('secretSanta', () => {
     test.each`
     input| expected 
     ${"There's no business like show business"} | ${1}
-    ${"A whole holiday in Holland"} | ${3}
     ${"E.T. phone home"} | ${2}
+    ${"A whole holiday in Holland"} | ${3}
+    ${"Homer is our household hotshot with horseshoes."} | ${7}
     ${"Toledo, Ohio"} | ${0}
     `('$input contains $expected occurrences of "ho"', ({input, expected}) => {
         expect(secretSanta(input)).toBe(expected);
