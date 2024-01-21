@@ -16,9 +16,7 @@ function polygonType() {
 
 
 
-function rockAndRoll() {
-
-}
+const rockAndRoll = () => {}
 
 
 
